@@ -9,7 +9,6 @@ public class Principal {
         Scanner lectura = new Scanner(System.in);
         ConsultaConversion consulta =new ConsultaConversion();
 
-        //Prueba de conversion: Dolar -- Peso argentino
         int salir=0;
         while (salir !=7){
             try {
