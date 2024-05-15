@@ -34,50 +34,41 @@ public class Principal {
                     monedaCambio = "ARS";
                     Conversion conversion = consulta.seleccionMoneda(monedaPrincipal);
                     cambioDeMoneda = new CambioDeMoneda(conversion, monedaCambio);
-                    System.out.println(cambioDeMoneda);
-
                 } else if (opcion == 2) {
                     monedaPrincipal = "ARS";
                     monedaCambio = "USD";
                     Conversion conversion = consulta.seleccionMoneda(monedaPrincipal);
                     cambioDeMoneda = new CambioDeMoneda(conversion, monedaCambio);
-                    System.out.println(cambioDeMoneda);
                 } else if (opcion == 3) {
                     monedaPrincipal = "USD";
                     monedaCambio = "BRL";
                     Conversion conversion = consulta.seleccionMoneda(monedaPrincipal);
                     cambioDeMoneda = new CambioDeMoneda(conversion, monedaCambio);
-                    System.out.println(cambioDeMoneda);
                 } else if (opcion == 4) {
                     monedaPrincipal = "BRL";
                     monedaCambio = "USD";
                     Conversion conversion = consulta.seleccionMoneda(monedaPrincipal);
                     cambioDeMoneda = new CambioDeMoneda(conversion, monedaCambio);
-                    System.out.println(cambioDeMoneda);
                 } else if (opcion == 5) {
                     monedaPrincipal = "USD";
                     monedaCambio = "COP";
                     Conversion conversion = consulta.seleccionMoneda(monedaPrincipal);
                     cambioDeMoneda = new CambioDeMoneda(conversion, monedaCambio);
-                    System.out.println(cambioDeMoneda);
                 } else if (opcion == 6) {
                     monedaPrincipal = "COP";
                     monedaCambio = "USD";
                     Conversion conversion = consulta.seleccionMoneda(monedaPrincipal);
                     cambioDeMoneda = new CambioDeMoneda(conversion, monedaCambio);
-                    System.out.println(cambioDeMoneda);
                 } else if (opcion == 7) {
                     monedaPrincipal = "USD";
                     monedaCambio = "MXN";
                     Conversion conversion = consulta.seleccionMoneda(monedaPrincipal);
                     cambioDeMoneda = new CambioDeMoneda(conversion, monedaCambio);
-                    System.out.println(cambioDeMoneda);
                 } else if (opcion == 8) {
                     monedaPrincipal = "MXN";
                     monedaCambio = "USD";
                     Conversion conversion = consulta.seleccionMoneda(monedaPrincipal);
                     cambioDeMoneda = new CambioDeMoneda(conversion, monedaCambio);
-                    System.out.println(cambioDeMoneda);
                 } else if (opcion == 9){
                     System.out.println("Saliendo del programa");
                     break;
